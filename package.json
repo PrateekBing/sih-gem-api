@@ -1,0 +1,16 @@
+{
+  "name": "gem-api",
+  "version": "1.0.0",
+  "description": "a rest API in express to respond to frontend user input requests with Gemini as the logic layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "author": "prateekdeshmukh",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "express": "^4.19.2"
+  }
+}
